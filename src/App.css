@@ -1,0 +1,356 @@
+/* .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.fieldset {
+  flex: 1;
+  border-radius: 10px;
+  margin: 15px;
+  
+}
+
+button {
+  margin: 15px;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  
+}
+
+.inputMerk{
+  border: none;
+  width: 95%;
+  background-color: black;
+  padding: 10px;
+  font-size: large;
+}
+
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.inputMerk::after{
+  border: none;
+}
+
+input[type="text"]:focus{
+  box-shadow: 0 0 0 rgb(255, 255, 255);
+}
+
+input[type="checkbox"]:focus{
+   box-shadow: 0 0 0 rgb(255, 255, 255);
+}
+
+.App {
+  margin: 10%;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 2px;
+  padding: 5%;
+  background-color: bisque;
+}
+
+.formTambahBarang {
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 5%;
+  background-color: aqua;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap');
+
+.body {
+  color: #111;
+  background-color: #000;
+  /* background-image: url("./ultahBabe.jpg");
+  background-size: cover;
+    background-position:top;
+    background: cover; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 700;
+  font-size: 5rem;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    font-size: 2rem;
+  }
+}
+
+.container > span {
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100%{
+    color: #fff;
+    text-shadow: 0 0 12px rgb(255, 27, 240), 0 0 50px rgb(255, 27, 240), 0 0 100px rgb(255, 27, 240);
+  }
+
+  10%, 90%{
+    color: #111;
+    text-shadow: none;
+  }
+}
+
+.container > span:nth-child(2) {
+  animation-delay: 0.30s;
+}
+.container > span:nth-child(3) {
+  animation-delay: 0.30s;
+}
+.container > span:nth-child(4) {
+  animation-delay: 0.60s;
+}
+.container > span:nth-child(5) {
+  animation-delay: 0.60s;
+}
+.container > span:nth-child(6) {
+  animation-delay: 0.60s;
+}
+.container > span:nth-child(7) {
+  animation-delay: 0.60s;
+}
+.container > span:nth-child(8) {
+  animation-delay: 0.60s;
+}
+.container > span:nth-child(9) {
+  animation-delay: 0.60s;
+}
+.container > span:nth-child(10) {
+  animation-delay: 0.60s;
+}
+.container > span:nth-child(11) {
+  animation-delay: 0.60s;
+}
+.container > span:nth-child(12) {
+  animation-delay: 0.50s;
+}
+
+.button {
+  background-color: black;
+  padding: 5px 25px 5px 20px;
+  border: 1px solid white;
+  border-color: white;
+  box-shadow: #fff;
+  cursor: pointer;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* .bodyUcapan {
+  color: #111;
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-family: 700;
+  font-size: 5rem;
+  flex-direction: column;
+} */
+
+
+.bodyUcapan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #073b4c;
+}
+
+.birthdayCard {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: 1s;
+}
+
+.birthdayCard:hover {
+  transform: perspective(2500px) rotate(5deg);
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
+    0 10px 100px rgba(0, 0, 0, 0.5);
+}
+
+.birthdayCard:hover .cardFront {
+  transform: rotateY(-160deg);
+}
+
+.birthdayCard:hover .happy {
+  visibility: hidden;
+}
+
+.cardFront {
+  position: relative;
+  background-image: url("./babee.jpg");
+  background-size: cover;
+    background-position:top;
+    background: cover;
+  /* background-color: #fff; */
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  transform-origin: left;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
+    30px 0 50px rgba(0, 0, 0, 0.4);
+  transition: 0.6s;
+}
+
+.happy {
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  margin: 30px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  transition: 0.1s;
+  backface-visibility: visible;
+}
+
+.balloons {
+  position: absolute;
+}
+
+.balloonOne,
+.balloonTwo,
+.balloonThree,
+.balloonFour {
+  position: absolute;
+  width: 85px;
+  height: 95px;
+  border-radius: 50%;
+}
+
+.balloonOne {
+  background-color: rgb(239, 71, 111, 0.7);
+  left: -10px;
+  top: 50px;
+}
+
+.balloonTwo {
+  background-color: rgb(6, 214, 160, 0.7);
+  left: 50px;
+  top: 20px;
+}
+
+.balloonThree {
+  background-color: rgb(255, 209, 102, 0.7);
+  left: 110px;
+  top: 50px;
+}
+
+.balloonFour {
+  background-color: rgb(17, 138, 178, 0.7);
+  left: 170px;
+  top: 20px;
+}
+
+.balloonOne:before,
+.balloonTwo:before,
+.balloonThree:before,
+.balloonFour:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 155px;
+  background-color: #ffd166;
+  top: 95px;
+  left: 43px;
+}
+
+.balloonOne:after,
+.balloonTwo:after,
+.balloonThree:after,
+.balloonFour:after {
+  content: "";
+  position: absolute;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  top: 94px;
+  left: 37px;
+}
+
+.balloonOne:after {
+  border-bottom: 10px solid #ef476f;
+}
+
+.balloonTwo:after {
+  border-bottom: 10px solid #06d6a0;
+}
+
+.balloonThree:after {
+  border-bottom: 10px solid #ffd166;
+}
+
+.balloonFour:after {
+  border-bottom: 10px solid #118ab2;
+}
+
+.cardInside {
+  position: absolute;
+  background-color: #fff;
+  width: 250px;
+  height: 350px;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-family: 'Baloo Thambi 2', cursive;
+  margin: 40px;
+  color: #333;
+  font-size: 9px;
+  text-align: justify;
+}
+
+.name {
+  position: absolute;
+  left: 150px;
+  top: 250px;
+  color: #333;
+}
+
+.back {
+  font-family: Tahoma, sans-serif;
+  color: #333;
+  text-align: center;
+  margin: 30px;
+  outline-color: #333;
+  outline-style: dotted;
+}
+
