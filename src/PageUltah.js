@@ -1,7 +1,5 @@
 import React from "react";
 import "./App.css";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import PageUcapan from "./PageUcapan";
 
@@ -13,11 +11,10 @@ const PageUltah = () => {
     setShowCard(!showCard);
     setShowUltah(!showUltah);
   };
-  const navigate = useNavigate();
   return (
     <div>
       {showUltah && (
-        <body className="body">
+        <div className="body">
           <div className="container">
             <span>Happy</span>
             <span> Birthday</span>
@@ -41,7 +38,7 @@ const PageUltah = () => {
           <button className="button" onClick={toggleCard}>
             <i className="arrow right"></i>
           </button>
-        </body>
+        </div>
       )}
 
       {showCard && <PageUcapan />}

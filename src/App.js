@@ -120,19 +120,11 @@
 // "homepage": "https://github.com/Gstppsw-spec/babeBirthday",
 
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageUltah from "./PageUltah";
-import PageUcapan from "./PageUcapan";
 
 const App = () => {
   return (
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<PageUltah/>}/>
-            <Route path="/ucapan" element={<PageUcapan/>}/>
-        </Routes>
-    </BrowserRouter>
-   
+    <PageUltah/>
   );
 };
 

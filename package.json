@@ -2,7 +2,7 @@
   "name": "crud-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Gstppsw-spec.github.io/BabeBirthday",
+  "homepage": "https://gstppsw-spec.github.io/BabeBirthday",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
