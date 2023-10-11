@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BabeBirthday/static/css/main.0cdb32da.css",
+    "main.js": "/BabeBirthday/static/js/main.ad9105f5.js",
+    "static/js/787.dd320e1b.chunk.js": "/BabeBirthday/static/js/787.dd320e1b.chunk.js",
+    "static/media/babee.jpg": "/BabeBirthday/static/media/babee.8c2277d07a8ac1a5d7ca.jpg",
+    "index.html": "/BabeBirthday/index.html",
+    "main.0cdb32da.css.map": "/BabeBirthday/static/css/main.0cdb32da.css.map",
+    "main.ad9105f5.js.map": "/BabeBirthday/static/js/main.ad9105f5.js.map",
+    "787.dd320e1b.chunk.js.map": "/BabeBirthday/static/js/787.dd320e1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cdb32da.css",
+    "static/js/main.ad9105f5.js"
+  ]
+}
