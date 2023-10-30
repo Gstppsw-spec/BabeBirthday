@@ -91,8 +91,27 @@ input[type="checkbox"]:focus{
   flex-direction: column;
 }
 
+
+.body-kelip {
+  color: #111;
+  background-color: #000;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 700;
+  font-size: 5rem;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 600px) {
   .body {
+    font-size: 2rem;
+  }
+
+  .body-kelip {
     font-size: 2rem;
   }
 }
@@ -149,7 +168,7 @@ input[type="checkbox"]:focus{
 
 .button {
   background-color: black;
-  padding: 5px 25px 5px 20px;
+  padding: 5px 15px 5px 10px;
   border: 1px solid white;
   border-color: white;
   box-shadow: #fff;
@@ -158,10 +177,10 @@ input[type="checkbox"]:focus{
 
 .arrow {
   border: solid white;
-  border-width: 0 6px 6px 0;
+  border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 .right {
   transform: rotate(-45deg);
@@ -185,6 +204,7 @@ input[type="checkbox"]:focus{
 
 .bodyUcapan {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -352,5 +372,26 @@ p {
   margin: 30px;
   outline-color: #333;
   outline-style: dotted;
+}
+
+.container-photos {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.photos {
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+}
+
+.p-desc {
+  font-size: 12px;
 }
 
