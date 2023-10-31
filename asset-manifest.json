@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/BabeBirthday/static/css/main.638e6699.css",
-    "main.js": "/BabeBirthday/static/js/main.1c475110.js",
+    "main.css": "/BabeBirthday/static/css/main.a1112c5c.css",
+    "main.js": "/BabeBirthday/static/js/main.9b034d63.js",
     "static/js/787.dd320e1b.chunk.js": "/BabeBirthday/static/js/787.dd320e1b.chunk.js",
     "static/media/unyu-lima.gif": "/BabeBirthday/static/media/unyu-lima.63509b53b88820b58b35.gif",
     "static/media/unyu-tiga.gif": "/BabeBirthday/static/media/unyu-tiga.d01f52ff97bbb017b522.gif",
+    "static/media/with-babe-tiga.jpg": "/BabeBirthday/static/media/with-babe-tiga.cbb925c6cb013b25c617.jpg",
     "static/media/babe-dua.jpg": "/BabeBirthday/static/media/babe-dua.f31692e51429f4c813b3.jpg",
     "static/media/babee.jpg": "/BabeBirthday/static/media/babee.8c2277d07a8ac1a5d7ca.jpg",
     "static/media/babe-tiga.jpg": "/BabeBirthday/static/media/babe-tiga.ffca5205761fc9398f3f.jpg",
@@ -13,12 +14,12 @@
     "static/media/unyu-tujuh.gif": "/BabeBirthday/static/media/unyu-tujuh.462ec3cad85d31dc07f7.gif",
     "static/media/unyu.gif": "/BabeBirthday/static/media/unyu.8dc2be474a9dcb2c8765.gif",
     "index.html": "/BabeBirthday/index.html",
-    "main.638e6699.css.map": "/BabeBirthday/static/css/main.638e6699.css.map",
-    "main.1c475110.js.map": "/BabeBirthday/static/js/main.1c475110.js.map",
+    "main.a1112c5c.css.map": "/BabeBirthday/static/css/main.a1112c5c.css.map",
+    "main.9b034d63.js.map": "/BabeBirthday/static/js/main.9b034d63.js.map",
     "787.dd320e1b.chunk.js.map": "/BabeBirthday/static/js/787.dd320e1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.638e6699.css",
-    "static/js/main.1c475110.js"
+    "static/css/main.a1112c5c.css",
+    "static/js/main.9b034d63.js"
   ]
 }
