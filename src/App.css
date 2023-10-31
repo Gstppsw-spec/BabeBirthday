@@ -71,7 +71,7 @@ input[type="checkbox"]:focus{
   background-color: aqua;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap");
 
 .body {
   color: #111;
@@ -85,12 +85,11 @@ input[type="checkbox"]:focus{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   font-weight: 700;
   font-size: 5rem;
   flex-direction: column;
 }
-
 
 .body-kelip {
   color: #111;
@@ -100,7 +99,7 @@ input[type="checkbox"]:focus{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   font-weight: 700;
   font-size: 5rem;
   flex-direction: column;
@@ -108,7 +107,7 @@ input[type="checkbox"]:focus{
 
 @media only screen and (max-width: 600px) {
   .body {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   .body-kelip {
@@ -121,49 +120,52 @@ input[type="checkbox"]:focus{
 }
 
 @keyframes glow {
-  0%, 100%{
+  0%,
+  100% {
     color: #fff;
-    text-shadow: 0 0 12px rgb(255, 27, 240), 0 0 50px rgb(255, 27, 240), 0 0 100px rgb(255, 27, 240);
+    text-shadow: 0 0 12px rgb(255, 27, 240), 0 0 50px rgb(255, 27, 240),
+      0 0 100px rgb(255, 27, 240);
   }
 
-  10%, 90%{
+  10%,
+  90% {
     color: #111;
     text-shadow: none;
   }
 }
 
 .container > span:nth-child(2) {
-  animation-delay: 0.30s;
+  animation-delay: 0.3s;
 }
 .container > span:nth-child(3) {
-  animation-delay: 0.30s;
+  animation-delay: 0.3s;
 }
 .container > span:nth-child(4) {
-  animation-delay: 0.60s;
+  animation-delay: 0.6s;
 }
 .container > span:nth-child(5) {
-  animation-delay: 0.60s;
+  animation-delay: 0.6s;
 }
 .container > span:nth-child(6) {
-  animation-delay: 0.60s;
+  animation-delay: 0.6s;
 }
 .container > span:nth-child(7) {
-  animation-delay: 0.60s;
+  animation-delay: 0.6s;
 }
 .container > span:nth-child(8) {
-  animation-delay: 0.60s;
+  animation-delay: 0.6s;
 }
 .container > span:nth-child(9) {
-  animation-delay: 0.60s;
+  animation-delay: 0.6s;
 }
 .container > span:nth-child(10) {
-  animation-delay: 0.60s;
+  animation-delay: 0.6s;
 }
 .container > span:nth-child(11) {
-  animation-delay: 0.60s;
+  animation-delay: 0.6s;
 }
 .container > span:nth-child(12) {
-  animation-delay: 0.50s;
+  animation-delay: 0.5s;
 }
 
 .button {
@@ -201,7 +203,6 @@ input[type="checkbox"]:focus{
   flex-direction: column;
 } */
 
-
 .bodyUcapan {
   display: flex;
   flex-direction: column;
@@ -237,10 +238,10 @@ input[type="checkbox"]:focus{
 
 .cardFront {
   position: relative;
-  background-image: url("./babee.jpg");
-  background-size: cover;
-    background-position:top;
-    background: cover;
+  background-image: url("./assets/with-babe-tiga.jpg");
+  background-size: contain;
+  background-position: top;
+  background: cover;
   /* background-color: #fff; */
   width: 250px;
   height: 350px;
@@ -351,7 +352,7 @@ input[type="checkbox"]:focus{
 }
 
 p {
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   margin: 40px;
   color: #333;
   font-size: 9px;
@@ -375,11 +376,10 @@ p {
 }
 
 .container-photos {
-  display:  flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .photos {
@@ -394,4 +394,3 @@ p {
 .p-desc {
   font-size: 12px;
 }
-

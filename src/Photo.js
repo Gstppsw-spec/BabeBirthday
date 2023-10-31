@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import babe from "./babee.jpg";
+import babe from "./assets/with-babe-tiga.jpg";
 import Kelip from "./Kelip";
 import unsatu from "./assets/unyu.gif";
 import untiga from "./assets/unyu-tiga.gif"
